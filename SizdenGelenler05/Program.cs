@@ -26,7 +26,7 @@ namespace SizdenGelenler05
                     continue;
                 }
 
-                komisyonlar[i] = urunFiyati > 50 ? urunFiyati * 0.02 : urunFiyati * 0.03;
+                komisyonlar[i] = urunFiyati > 50 ? urunFiyati * 0.03 : urunFiyati * 0.02;
                 komisyonToplami += komisyonlar[i];
                 i++;
             }
